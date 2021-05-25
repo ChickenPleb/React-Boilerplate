@@ -1,7 +1,7 @@
 $dark: #111116; $light: #2d2d3a; $lighter: #47475c; $blue: #118ab2; $green: #06d6a0; $yellow: #ffd166;
-$red: #ef476f; $orange: #ff9b54; $white: #fdfcdc; $black: #0a0908; $purple: #7b2cbf;
-$frame: #3e4450;
-$frameLight: #596075;
+$red: #ef476f; $orange: #ff9b54; $white: #fdfcdc; $black: #0a0908; $purple: #7b2cbf; $frame: #25252f;  $frameLight: #31313f;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body{
   background-color: $dark;
@@ -19,22 +19,46 @@ body{
   display: flex;
   align-items: center;
 }
+
 .appTitle{
   margin-left: 10px;
-  font-size: 30px;
+  font-size: 27.5px;
   color: white;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   user-select: none;
 }
 .appLogo{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: 25px;
   cursor: pointer;
   user-select: none;
   -webkit-user-drag: none;
+}
+
+.flexNav{
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#navButton{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22.5px;
+  transition: all 0.25s ease;
+  color: white;
+}#navButton:hover{
+  color: lightgray;
 }
 
 .container{
@@ -52,10 +76,13 @@ body{
   padding: 20px;
   border-radius: 15px;
   transition: all 0.35s ease;
-  display: flex;
 }.frame:hover{
   background-color: $frameLight;
   transform: translate(0, -15px);
+}
+
+.frameFlex{
+  display: flex;
 }
 
 .containerTitle{
@@ -65,12 +92,10 @@ body{
   font-size: 30px;
   color: white;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  cursor: pointer;
-  user-select: none;
+  font-weight: 500;
 }
 
-.frame > h2{
+.frameFlex > h2{
   margin-top: 10px;
   margin-left: 10px;
   font-size: 25px;
@@ -78,9 +103,39 @@ body{
   font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
-.frameLogo{
+
+.frame > h4{
+  color: white;
+  font-size: 17.5px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.frameLogoReact{
   width: 50px;
   height: 50px;
   user-select: none;
   -webkit-user-drag: none;
+}
+.frameLogoSass{
+  width: 65px;
+  height: 50px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.frameLogoFire{
+  width: 40px;
+  height: 65px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.frameLogoVercel{
+  width: 50px;
+  height: 50px;
+  user-select: none;
+  -webkit-user-drag: none;
+  border-radius: 100%;
 }

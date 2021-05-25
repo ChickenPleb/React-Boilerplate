@@ -1,6 +1,6 @@
 import "./styles.scss";
 import Header from './header';
-import Container from './container'
+import Container from './home'
 
 export default function App() {
   return (
