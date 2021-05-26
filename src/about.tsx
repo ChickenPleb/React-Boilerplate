@@ -4,9 +4,9 @@ export default function About() {
   var divStyles = 'block';
 
   if(String(window.location).split('/')[3] === 'about'){
-    var divStyles = 'block';
+    divStyles = 'block';
   }else{
-    var divStyles = 'none';
+    divStyles = 'none';
   }
 
   return (

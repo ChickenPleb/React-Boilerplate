@@ -5,9 +5,9 @@ export default function Home() {
   var divStyles = 'block';
 
   if(String(window.location).split('/')[3] === ''){
-    var divStyles = 'block';
+    divStyles = 'block';
   }else{
-    var divStyles = 'none';
+    divStyles = 'none';
   }
 
   return (
