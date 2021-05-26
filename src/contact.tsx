@@ -4,9 +4,9 @@ export default function Contact() {
   var divStyles = 'block';
 
   if(String(window.location).split('/')[3] === 'contact'){
-    var divStyles = 'block';
+    divStyles = 'block';
   }else{
-    var divStyles = 'none';
+    divStyles = 'none';
   }
 
   return (
