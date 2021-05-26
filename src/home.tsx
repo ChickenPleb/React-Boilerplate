@@ -1,8 +1,17 @@
 import "./styles.scss";
 
 export default function Home() {
+
+  var divStyles = 'block';
+
+  if(String(window.location).split('/')[3] === ''){
+    var divStyles = 'block';
+  }else{
+    var divStyles = 'none';
+  }
+
   return (
-    <div>
+    <div style={{display: divStyles}}>
       <h1 className="containerTitle">Stack</h1>
       <div className="container">
         

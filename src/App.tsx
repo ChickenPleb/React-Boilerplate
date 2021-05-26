@@ -1,12 +1,19 @@
 import "./styles.scss";
 import Header from './header';
-import Container from './home'
+import Home from './home';
+import About from './about';
+import Contact from './contact';
+
 
 export default function App() {
+
+
   return (
     <div className="app">
       <Header />
-      <Container />
+      <Home />
+      <About />
+      <Contact />
     </div>
   );
 }
