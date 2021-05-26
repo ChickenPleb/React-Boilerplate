@@ -15,8 +15,8 @@ export default function Home() {
       <h1 className="containerTitle">Stack</h1>
       <div className="container">
         
-      <div className="frame"><div className="frameFlex"> <img className="frameLogoReact" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="appLogo"/> 
-        <h2>TypeScript</h2> </div>
+      <div className="frame"><div className="frameFlex"> <img className="frameLogoReact" src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png" alt="appLogo"/> 
+        <h2>JavaScript</h2> </div>
         <h4>Typescript makes your code easier to read and debug, for clean code and comfortable usability.<code></code></h4>
         </div>
         
