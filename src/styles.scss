@@ -139,3 +139,17 @@ body{
   -webkit-user-drag: none;
   border-radius: 100%;
 }
+
+.footer{
+  position: absolute;
+  top: 100%;
+  margin-top: 33px;
+  width: 100%;
+  background-color: white;
+  height: 65px;
+  font-size: 9px;
+  font-family: 'Inter';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -10,6 +10,7 @@ export default function Home() {
     divStyles = 'none';
   }
 
+
   return (
     <div style={{display: divStyles}}>
       <h1 className="containerTitle">Stack</h1>
@@ -17,7 +18,7 @@ export default function Home() {
         
       <div className="frame"><div className="frameFlex"> <img className="frameLogoReact" src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png" alt="appLogo"/> 
         <h2>JavaScript</h2> </div>
-        <h4>Typescript makes your code easier to read and debug, for clean code and comfortable usability.<code></code></h4>
+        <h4>Javascript makes your code easier to read and debug, for clean code and comfortable usability.<code></code></h4>
         </div>
         
         <div className="frame"><div className="frameFlex"> <img className="frameLogoReact" src="https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png" alt="appLogo"/> 
