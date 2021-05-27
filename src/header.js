@@ -21,6 +21,7 @@ export default function Header() {
         <a href="/about" style={{opacity: navOpacity[1]}} id="navButton">About</a>
         <a href="/contact" style={{opacity: navOpacity[2]}} id="navButton">Contact</a>
       </div>
+      <img className="menuButton" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" alt="menu-button"/>
     </div>
   );
 }
