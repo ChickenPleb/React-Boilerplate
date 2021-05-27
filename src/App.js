@@ -16,7 +16,7 @@ export default function App() {
       <Home />
       <About />
       <Contact />
-      <Footer />
+//    <Footer />
       <Error />
     </div>
   );
